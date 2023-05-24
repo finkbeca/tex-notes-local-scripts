@@ -1,0 +1,12 @@
+\documentclass{article}
+
+\input{preamble.tex}
+\begin{document}
+\title{Notes}
+\author{Colin Finkbeiner}
+\maketitle
+
+\tableofcontents
+\newpage
+\section{}
+\end{document}
