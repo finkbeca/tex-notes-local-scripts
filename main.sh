@@ -7,6 +7,7 @@ subfolders=("$master_folder"/*/)
 
 # Prompt for option selection based on the available subfolders
 echo "Available options:"
+echo "Test me"
 for ((i=0; i<${#subfolders[@]}; i++)); do
   folder_name=$(basename "${subfolders[i]}")
   echo "$((i+1)). $folder_name"
